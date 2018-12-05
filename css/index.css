@@ -1,0 +1,100 @@
+html, body{
+    margin:0;
+}
+h1{
+    text-shadow:2px 2px 4px #000000;
+}
+section{
+    border:solid pink;
+    display:flex;
+    justify-content:center;
+    
+}
+div{
+    height:320px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    opacity:.7;
+}
+.pics{
+    display:none;
+}
+.photos{
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:white;
+}
+a{
+    display:block;
+    width:100%;
+    text-decoration: none;
+    color:white;
+    
+}
+div:hover{
+    opacity:1;
+}
+#one{
+    background-image: url("../img/mball.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+#oneb{
+      background-image: url("../img/mjucy.jpg");
+      background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+#two{
+    background-image: url("../img/mfav.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+#twob{
+    background-image: url("../img/mcowgirl.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+#three{
+    background-image: url("../img/mrobe.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+#threeb{
+    background-image: url("../img/mscarf.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+@media only screen and (min-width:600px)
+{
+    html, body{
+        height:100%;
+    }
+    section{
+        height:100%;
+        flex:1;
+        flex-wrap:wrap;
+    }
+    h1{
+      text-shadow:2px 2px 4px #000000;
+      margin:0;
+      padding:0;
+}
+    .pics{
+        display:block;
+    }
+    body{
+        display:flex;
+        
+    }
+    div{
+        height:100%;
+    }
+}
